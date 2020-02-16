@@ -1,0 +1,19 @@
+{
+  "name": "imgminify",
+  "version": "1.0.0",
+  "description": "Image minifier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Polina Zmanovskaya",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-imagemin": "^7.1.0"
+  }
+}
