@@ -26,7 +26,7 @@ function watch() {
 	});
 	minify();
 	gulp.watch("./less/**/*.less", css);
-	gulp.watch("./*.html").on("change", browserSync.reload)
+	gulp.watch("./*").on("change", browserSync.reload)
 }
 
 exports.watch = watch;
